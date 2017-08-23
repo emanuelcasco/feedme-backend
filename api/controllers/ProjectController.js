@@ -7,8 +7,6 @@
 
 /* globals Project */
 
-const bcrypt = require('bcrypt');
-
 module.exports = {
   find (req, res) {
     const hash = req.params.hash;
