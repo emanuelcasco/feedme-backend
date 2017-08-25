@@ -14,8 +14,12 @@ module.exports = {
       if (err) {
         res.status(500).json({ error: 'Internal server error' });
       }
-      const project = results[0];
-      res.status(201).json(project);
+      if (results) {
+        const project = results[0];
+        res.status(201).json(project);
+      } else {
+        res.status(200).json({ error: 'No results' });
+      }
     });
   }
 };
