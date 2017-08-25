@@ -5,6 +5,7 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "dotenv": "^4.0.0",
     "include-all": "^1.0.0",
     "md5": "^2.2.1",
     "rc": "1.0.1",
