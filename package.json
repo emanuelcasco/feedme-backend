@@ -5,13 +5,12 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
-    "bcrypt": "^1.0.2",
     "include-all": "^1.0.0",
+    "md5": "^2.2.1",
     "rc": "1.0.1",
     "sails": "~0.12.13",
     "sails-disk": "~0.10.9",
-    "sails-postgresql": "^0.11.4",
-    "vue-materials": "^1.0.7-rc.7"
+    "sails-postgresql": "^0.11.4"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -29,7 +28,6 @@
     "babel-eslint": "^7.2.3",
     "eslint": "^4.1.1",
     "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.6.1",
-    "md5": "^2.2.1"
+    "eslint-plugin-import": "^2.6.1"
   }
 }
