@@ -25,9 +25,9 @@ module.exports = {
 
       Issue.create(newIssue).exec(function (err, records) {
         if (err) {
-          res.status(500);
+          res.status(500).json({ error: 'Internal server error' });
         }
-        res.status(200);
+        res.status(200).json({ msg: 'Ok' });
       });
     });
   }
