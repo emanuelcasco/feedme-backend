@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-
+  conection: 'sails-postgresql',
   attributes: {
     hash: {
       type: 'string',
