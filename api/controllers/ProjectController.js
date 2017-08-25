@@ -17,8 +17,6 @@ module.exports = {
       if (results) {
         const project = results[0];
         res.status(201).json(project);
-      } else {
-        res.status(200).json({ error: 'No results' });
       }
     });
   }
