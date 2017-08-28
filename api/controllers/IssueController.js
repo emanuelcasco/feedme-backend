@@ -16,6 +16,7 @@ module.exports = {
     report.issues.forEach((issue) => {
       const newIssue = {
         idProject: project.id,
+        type: issue.type,
         criticity: issue.criticity,
         priority: issue.priority,
         desc: issue.desc,
