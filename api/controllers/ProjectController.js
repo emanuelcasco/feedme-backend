@@ -13,10 +13,11 @@ module.exports = {
     Project.find({ hash: `${hash}` }).exec(function (err, results) {
       if (err) {
         res.status(500).json({ error: 'Internal server error', err });
-      }
-      if (results) {
+      } else if (results) {
         const project = results[0];
         res.status(201).json(project);
+      } else {
+        res.status(500).json({ error: 'Internal server error' });
       }
     });
   }
