@@ -6,6 +6,8 @@
  */
 
 module.exports = {
+  autoCreatedAt: false,
+  autoUpdatedAt: false,
   conection: 'sails-postgresql',
   attributes: {
     name: {
