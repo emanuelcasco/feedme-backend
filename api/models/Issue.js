@@ -12,6 +12,10 @@ module.exports = {
       type: 'integer',
       required: true
     },
+    type: {
+      type: 'integer',
+      required: true
+    },
     criticity: {
       type: 'integer',
       required: true
