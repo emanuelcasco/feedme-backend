@@ -47,7 +47,7 @@ module.exports.cors = {
   *                                                                          *
   ***************************************************************************/
 
-  origin: 'https://wfeedme.herokuapp.com',
+  origin: 'https://wfeedme.herokuapp.com,http://localhost:8080',
 
   /** *************************************************************************
   *                                                                          *
