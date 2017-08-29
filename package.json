@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "description": "a Sails application",
   "keywords": [],
+  "engines" : { "node" : ">=8.1" },
   "dependencies": {
     "dotenv": "^4.0.0",
     "include-all": "^1.0.0",
