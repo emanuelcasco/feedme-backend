@@ -10,7 +10,11 @@ module.exports = {
   autoUpdatedAt: false,
   conection: 'sails-postgresql',
   attributes: {
-    name: {
+    en: {
+      type: 'string',
+      required: true
+    },
+    es: {
       type: 'string',
       required: true
     }
